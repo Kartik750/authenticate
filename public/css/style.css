@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+/* header css */
+.header{
+    height: 100px;
+    width: vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+}
+
+
+
+/* main home css */
+.main-home{
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img{
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 200px;
+}
+.home-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.home-head{
+    /* border: 1px solid red; */
+    height: 70px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-para{
+    /* border: 1px solid red; */
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home-btns{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 300px;
+}
+.home-register, .home-login{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeRegister, .homeLogin{
+    height: 40px;
+    width: 100px;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    background-color: crimson;
+    font-size: 16px;
+    cursor: pointer;
+    color:aliceblue;
+    transition: all 0.2s ease-in-out;
+}
+.homeRegister:hover, .homeLogin:hover{
+    background-color: rgb(219, 118, 139);
+    color: black;
+}
+.homeRegister:active, .homeLogin:active{
+    transform: scale(0.85);
+}
+
+
+
+/* register home css */
+
+.register-main{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-head{
+    /* border: 1px solid red; */
+    height: 70px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form{
+    height: 300px;
+    width: 900px;
+    border: 1px solid red;
+}
+
+.register-mail, .register-password, .register-btn{
+    /* border: 1px solid red; */
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.register-mail label, .register-password label{
+    font-size: 22px;
+}
+.register-mail input, .register-password input{
+    height: 20px;
+    width: 300px;
+    margin-top: 5px;
+    outline: 0;
+    border: 0;
+    background-color: antiquewhite;
+    border-bottom: 1px solid black;
+    transition: all 0.2s ease-in-out;
+}
+.register-mail input:focus, .register-password input:focus{
+    box-shadow: 0px 0px 10px aliceblue;
+    border: 1px solid rgb(15, 99, 172);
+}
+
+.register-btn button{
+    height: 50px;
+    width: 150px;
+}
+
+
+
+/* login-main css  */
+.login-main{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-head{
+    /* border: 1px solid red; */
+    height: 70px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    height: 300px;
+    width: 900px;
+    border: 1px solid red;
+}
+
+.login-mail, .login-password, .login-btn{
+    /* border: 1px solid red; */
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.login-mail label, .login-password label{
+    font-size: 22px;
+}
+.login-mail input, .login-password input{
+    height: 20px;
+    width: 300px;
+    margin-top: 5px;
+    outline: 0;
+    border: 0;
+    background-color: antiquewhite;
+    border-bottom: 1px solid black;
+    transition: all 0.2s ease-in-out;
+}
+.login-mail input:focus, .login-password input:focus{
+    box-shadow: 0px 0px 10px aliceblue;
+    border: 1px solid rgb(15, 99, 172);
+}
+
+.login-btn button{
+    height: 50px;
+    width: 150px;
+}
+
+/* secrets-main css */
+.main-secrets{
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secrets-img{
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 200px;
+}
+.secrets-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.secrets-head{
+    /* border: 1px solid red; */
+    height: 70px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secrets-para{
+    /* border: 1px solid red; */
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.secrets-btns{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 300px;
+}
+.secrets-submit, .secrets-logout{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secretsLogout, .secretsSubmit{
+    height: 40px;
+    width: 100px;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    background-color: crimson;
+    font-size: 16px;
+    cursor: pointer;
+    color:aliceblue;
+    transition: all 0.2s ease-in-out;
+}
+.secretsLogout:hover, .secretsSubmit:hover{
+    background-color: rgb(219, 118, 139);
+    color: black;
+}
+.secretsLogout:active, .secretsSubmit:active{
+    transform: scale(0.85);
+}
+
+
+
+
+/* footer css */
+.footer{
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+}
